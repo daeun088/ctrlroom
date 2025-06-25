@@ -1,0 +1,37 @@
+name: Feature
+description: 해야 할 작업이나 개선 사항을 정리합니다.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: 할 일 개요
+      description: 어떤 작업이 필요한지 간단히 설명해주세요.
+      placeholder: 예: "전시 메인 페이지에 카드 3개 추가 필요"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: 세부 작업 목록
+      description: 필요한 작업을 체크리스트로 나눠서 작성해주세요.
+      options:
+        - label: [ ] UI 레이아웃 구조 잡기
+        - label: [ ] 카드 hover 애니메이션 넣기
+        - label: [ ] 섹션별 디자인 정리
+        - label: [ ] 테스트 및 디버깅
+        - label: [ ] 코드 커밋 및 PR 생성
+
+  - type: input
+    attributes:
+      label: 예상 작업 시간
+      placeholder: 예: "약 2시간"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 참고 링크 / 메모
+      description: 참고할 페이지, 관련 이슈 또는 간단한 아이디어를 기록해두세요.
+    validations:
+      required: false
