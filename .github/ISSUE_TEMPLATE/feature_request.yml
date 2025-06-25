@@ -16,11 +16,11 @@ body:
       label: 세부 작업 목록
       description: 필요한 작업을 체크리스트로 나눠서 작성해주세요.
       options:
-        - label: [ ] UI 레이아웃 구조 잡기
-        - label: [ ] 카드 hover 애니메이션 넣기
-        - label: [ ] 섹션별 디자인 정리
-        - label: [ ] 테스트 및 디버깅
-        - label: [ ] 코드 커밋 및 PR 생성
+        - label: "UI 레이아웃 구조 잡기"
+        - label: "카드 hover 애니메이션 넣기"
+        - label: "섹션별 디자인 정리"
+        - label: "테스트 및 디버깅"
+        - label: "코드 커밋 및 PR 생성"
 
   - type: input
     attributes:
