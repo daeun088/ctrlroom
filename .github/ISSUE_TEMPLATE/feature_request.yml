@@ -7,7 +7,7 @@ body:
     attributes:
       label: 할 일 개요
       description: 어떤 작업이 필요한지 간단히 설명해주세요.
-      placeholder: 예: "전시 메인 페이지에 카드 3개 추가 필요"
+      placeholder: "예: 전시 메인 페이지에 카드 3개 추가 필요"
     validations:
       required: true
 
